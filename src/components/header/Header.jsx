@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "./header.css"
 
-const Header = ({ setQualificationToggleTab }) => {
+const Header = ({setQualificationToggleTab}) => {
     /* Toggle Menu */
     const [Toggle, showMenu] = useState(false);
 
@@ -53,7 +53,7 @@ const Header = ({ setQualificationToggleTab }) => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#contact" className="nav__link" onClick={() => setActiveLink("#contact")} >
+                            <a href="#contact" className="nav__link" onClick={() => setActiveLink("#contact")}>
                                 <i className="uil uil-message nav__icon"></i> Contact
                             </a>
                         </li>
